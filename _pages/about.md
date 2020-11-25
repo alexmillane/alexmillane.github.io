@@ -14,6 +14,23 @@ Prior to starting my PhD, I wrote state estimation and machine learning algorith
 
 I love doing things that lie in the intersection of mathematics, software, and physical systems.
 
+## Selected Publications
+
+{% capture voxgraph-text %}
+[![Voxgraph](/images/voxgraph_fast.gif){:height="45%" width="45%" style="float: left; padding-right: 20px"}](https://www.youtube.com/watch?v=N9p1_Fkxxro)
+## Voxgraph: Globally Consistent, Volumetric Mapping using Signed Distance Function Submaps
+{:style="margin-top:-10px"}
+
+Victor Reijgwart\*, Alexander Millane\*, Helen Oleynikova, Roland Siegwart, Cesar Cadena, Juan Nieto   
+**IEEE Robotics and Automation Letters, 2019**
+
+ \* contributed equally
+ {% endcapture %}
+
+<div class="notice--primary" style="float: left">
+  {{ voxgraph-text | markdownify }}
+</div>
+
 
 
 ## Projects
@@ -29,6 +46,16 @@ In this project we built a system for autonomously finding fires in multi-story 
   {{ mbzirc-text | markdownify }}
 </div>
 
+{% capture thermal-mapping-text %}
+[![Thermal Mapping](/images/thermal_mapping.gif){:height="45%" width="45%" style="float: left; padding-right: 20px"}](https://www.youtube.com/watch?v=49WiPHkkhBw)
+## Thermal Mapping
+{:style="margin-top:-10px"}
+In this work we showed a UAV building dense 3D maps, localizing within these maps, and autonomously navigating through narrow spaces to find potential injured people using a thermal camera. We demonstrated this at a search and rescue training site in Switzerland.
+{% endcapture %}
+
+<div class="notice--primary" style="float: left">
+  {{ thermal-mapping-text | markdownify }}
+</div>
 
 
 <!-- 

@@ -21,16 +21,13 @@ I love doing things that lie in the intersection of mathematics, software, and p
 ## Projects
 
 {% capture mbzirc-text %}
-<!-- [![Tricopter](/images/mbzirc_2020_voliro_t_crop.gif){:height="45%" width="45%" style="float: left; padding-right: 20px"}](https://www.youtube.com/watch?v=QB1Cw2m6Yh8) -->
-![Tricopter](/images/mbzirc_2020_voliro_t_crop.gif){:height="50%" width="50%" style="float: left; padding-right: 20px"}
+[![Tricopter](/images/mbzirc_2020_voliro_t_crop.gif){:height="45%" width="45%" style="float: left; padding-right: 20px"}](https://www.youtube.com/watch?v=QB1Cw2m6Yh8)
 ## Autonomous Fire-Fighting
-{:style="margin-top:0"}
+{:style="margin-top:-10px"}
 In this project we built a system for autonomously finding fires in multi-story buildings as part of our entry to the [MBZIRC 2020 international robotics competition](https://www.mbzirc.com/ "MBZIRC"). The mission is completed by a collaborating robotic team, consisting of a hexacopter and a tricopter. The approach exploits the mapping and precise control capabilities of each of the vehicles respectively. If you're interested, check out our [video](https://www.canterbury.ac.nz/ "Autonomous Firefighting").
-<!-- [![Hexacopter](/images/mbzirc_2020_mapping.gif){:height="45%" width="45%" style="float: left"}](https://www.youtube.com/watch?v=QB1Cw2m6Yh8) -->
 {% endcapture %}
 
 <div class="notice--primary" style="float: left">
-<!--   <h2 class="no_toc" style="margin-top:0">Autonomous Fire-Fighting</h2> -->
   {{ mbzirc-text | markdownify }}
 </div>
 

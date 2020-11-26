@@ -12,7 +12,7 @@ Hey, I'm Alex. I'm a soon-to-graduate PhD student in the [Autonomous Systems Lab
 
 Prior to starting my PhD, I wrote state estimation and machine learning algorithms for a [Formula-1 team](https://www.sauber-group.com/ "Formula-1 team"), and spent time prior to that developing acoustic devices which I helped install in heavy machinery. I finished a Masters in Robotics, Systems, and Control in 2015, also at [ETH](https://ethz.ch/en "ETH Zürich"). I hold a Bachelors degree from [Canterbury University](https://www.canterbury.ac.nz/ "Canterbury University"), located in New Zealand, where I grew up.
 
-I love doing things that lie in the intersection of mathematics, software, and physical systems, and I'm looking for something challenging and awesome to do next. If you can help, let me know at alex.millane@gmail.com.
+I love doing things that lie in the intersection of mathematics, software, and physical systems, and I'm looking for something challenging and awesome to do next. If you can help, let me know.
 
 ## Selected Publications
 

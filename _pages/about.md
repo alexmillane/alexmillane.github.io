@@ -24,13 +24,26 @@ I love doing things that lie in the intersection of mathematics, software, and p
 Victor Reijgwart\*, Alexander Millane\*, Helen Oleynikova, Roland Siegwart, Cesar Cadena, Juan Nieto   
 **IEEE Robotics and Automation Letters, 2019**
 
- \* contributed equally
- {% endcapture %}
+\* contributed equally
+
+{% endcapture %}
 
 <div class="notice--primary" style="float: left">
   {{ voxgraph-text | markdownify }}
 </div>
 
+{% capture cblox-text %}
+[![Voxgraph](/images/machine_hall_rotate_combined.gif){:height="45%" width="45%" style="float: left; padding-right: 20px; padding-bottom: 40px"}](https://www.youtube.com/watch?v=N9p1_Fkxxro)
+## C-blox: A Scalable and Consistent TSDF-based Dense Mapping Approach
+{:style="margin-top:-10px"}
+Alexander Millane, Zachary Taylor, Helen Oleynikova, Juan Nieto, Roland Siegwart, César Cadena   
+**IEEE International Conference on Intelligent Robots and Systems (IROS), 2018**
+
+{% endcapture %}
+
+<div class="notice--primary" style="float: left">
+  {{ cblox-text | markdownify }}
+</div>
 
 
 ## Projects
@@ -39,7 +52,7 @@ Victor Reijgwart\*, Alexander Millane\*, Helen Oleynikova, Roland Siegwart, Cesa
 [![Tricopter](/images/mbzirc_2020_voliro_t_crop.gif){:height="45%" width="45%" style="float: left; padding-right: 20px"}](https://www.youtube.com/watch?v=QB1Cw2m6Yh8)
 ## Autonomous Fire-Fighting
 {:style="margin-top:-10px"}
-In this project we built a system for autonomously finding fires in multi-story buildings as part of our entry to the [MBZIRC 2020 international robotics competition](https://www.mbzirc.com/ "MBZIRC"). The mission is completed by a collaborating robotic team, consisting of a hexacopter and a tricopter. The approach exploits the mapping and precise control capabilities of each of the vehicles respectively. If you're interested, check out our [video](https://www.canterbury.ac.nz/ "Autonomous Firefighting").
+In this project we built a system for autonomously finding fires in multi-story buildings as part of our entry to the [MBZIRC 2020 international robotics competition](https://www.mbzirc.com/ "MBZIRC"). The mission is completed by a collaborating robotic team, consisting of a hexacopter and a tricopter. The approach exploits the mapping and precise control capabilities of each of the vehicles respectively. If you're interested, check out our [video](https://www.youtube.com/watch?v=QB1Cw2m6Yh8 "Autonomous Firefighting").
 {% endcapture %}
 
 <div class="notice--primary" style="float: left">
@@ -50,7 +63,7 @@ In this project we built a system for autonomously finding fires in multi-story 
 [![Thermal Mapping](/images/thermal_mapping.gif){:height="45%" width="45%" style="float: left; padding-right: 20px"}](https://www.youtube.com/watch?v=49WiPHkkhBw)
 ## Thermal Mapping
 {:style="margin-top:-10px"}
-In this work we showed a UAV building dense 3D maps, localizing within these maps, and autonomously navigating through narrow spaces to find potential injured people using a thermal camera. We demonstrated this at a search and rescue training site in Switzerland.
+In this work we showed a UAV building dense 3D maps, localizing within these maps, and autonomously navigating through narrow spaces to find potential injured people using a thermal camera. We demonstrated this at a search and rescue training site in Switzerland. If you're interested, check out our [video](https://www.youtube.com/watch?v=49WiPHkkhBw "Thermal Mapping").
 {% endcapture %}
 
 <div class="notice--primary" style="float: left">

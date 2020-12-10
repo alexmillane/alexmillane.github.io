@@ -16,12 +16,42 @@ I love doing things that lie in the intersection of mathematics, software, and p
 
 ## Selected Publications
 
+A full list of publications may be found my [google scholar page](https://scholar.google.ch/citations?hl=en&user=opWkjhsAAAAJ "Google Scholar").
+
+{% capture freetures-text %}
+[![Freetures](/images/freetures_fade.gif){:height="45%" width="45%" style="float: left; padding-right: 20px"}](https://www.youtube.com/watch?v=O7ztVZDtDb0)
+## Freetures: Localization in Signed Distance Function Maps
+{:style="margin-top:-10px"}
+Alexander Millane, Helen Oleynikova, Christian Lanegger, Jeff Delmerico, Juan Nieto, Roland Siegwart, Marc Pollefeys, and César Cadena   
+**IEEE Robotics and Automation Letters, 2020, (submitted).** 
+
+{% endcapture %}
+
+<div class="notice--primary" style="float: left">
+  {{ freetures-text | markdownify }}
+</div>
+
+
+{% capture freespace-features-text %}
+[![Freespace](/images/freespace_features_fade.gif){:height="45%" width="45%" style="float: left; padding-right: 20px"}](https://www.youtube.com/watch?v=O7ztVZDtDb0)
+## Free‑Space Features: Global Localization in 2D Laser SLAM Using Distance Function Maps
+{:style="margin-top:-10px"}
+Alexander Millane, Helen Oleynikova, Juan Nieto, Roland Siegwart, and César Cadena   
+**IEEE International Conference on Intelligent Robots and Systems (IROS), 2019** 
+
+{% endcapture %}
+
+<div class="notice--primary" style="float: left">
+  {{ freespace-features-text | markdownify }}
+</div>
+
+
 {% capture voxgraph-text %}
 [![Voxgraph](/images/voxgraph_fast.gif){:height="45%" width="45%" style="float: left; padding-right: 20px"}](https://www.youtube.com/watch?v=N9p1_Fkxxro)
 ## Voxgraph: Globally Consistent, Volumetric Mapping using Signed Distance Function Submaps
 {:style="margin-top:-10px"}
 
-Victor Reijgwart\*, Alexander Millane\*, Helen Oleynikova, Roland Siegwart, Cesar Cadena, Juan Nieto   
+Victor Reijgwart\*, Alexander Millane\*, Helen Oleynikova, Roland Siegwart, César Cadena, Juan Nieto   
 **IEEE Robotics and Automation Letters, 2019**
 
 \* contributed equally

@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-Hey, I'm Alex. I'm a soon-to-graduate PhD student in the [Autonomous Systems Lab](https://asl.ethz.ch/ "Autonomous Systems Lab") at [ETH Zürich](https://ethz.ch/en "ETH Zürich"), in Switzerland. My PhD is focused on 3D map-building for rotary-wing UAVs, and more generally on map representations for mapping large scale environments on computationally constrained platforms. I am currently spending the final part of my PhD as a visiting scientist in the [Microsoft Mixed Reality & AI Zurich Lab](https://www.sauber-group.com/ "https://www.microsoft.com/en-us/research/lab/mixed-reality-ai-zurich/")
+Hey, I'm Alex. I'm a soon-to-graduate PhD student in the [Autonomous Systems Lab](https://asl.ethz.ch/ "Autonomous Systems Lab") at [ETH Zürich](https://ethz.ch/en "ETH Zürich"), in Switzerland. My PhD is focused on 3D map-building for rotary-wing UAVs, and more generally on map representations for mapping large scale environments on computationally constrained platforms. I am currently spending the final part of my PhD as a visiting scientist in the [Microsoft Mixed Reality & AI Zurich Lab](https://www.microsoft.com/en-us/research/lab/mixed-reality-ai-zurich/ "Microsoft Mixed Reality & AI Zurich Lab")
 
 Prior to starting my PhD, I wrote state estimation and machine learning algorithms for a [Formula-1 team](https://www.sauber-group.com/ "Formula-1 team"), and spent time prior to that developing acoustic devices which I helped install in heavy machinery. I finished a Masters in Robotics, Systems, and Control in 2015, also at [ETH](https://ethz.ch/en "ETH Zürich"), and I hold a Bachelors degree from [Canterbury University](https://www.canterbury.ac.nz/ "Canterbury University"), located in New Zealand, where I grew up.
 
@@ -16,13 +16,43 @@ I love doing things that lie in the intersection of mathematics, software, and p
 
 ## Selected Publications
 
+A full list of publications may be found my [google scholar page](https://scholar.google.ch/citations?hl=en&user=opWkjhsAAAAJ "Google Scholar").
+
+{% capture freetures-text %}
+[![Freetures](/images/freetures_fade.gif){:height="45%" width="45%" style="float: left; padding-right: 20px"}](https://www.youtube.com/watch?v=O7ztVZDtDb0)
+## Freetures: Localization in Signed Distance Function Maps
+{:style="margin-top:-10px"}
+Alexander Millane, Helen Oleynikova, Christian Lanegger, Jeff Delmerico, Juan Nieto, Roland Siegwart, Marc Pollefeys, and César Cadena   
+**IEEE Robotics and Automation Letters, 2020, (submitted).** 
+
+{% endcapture %}
+
+<div class="notice--primary" style="float: left">
+  {{ freetures-text | markdownify }}
+</div>
+
+
+{% capture freespace-features-text %}
+[![Freespace](/images/freespace_features_fade.gif){:height="45%" width="45%" style="float: left; padding-right: 20px"}](https://www.youtube.com/watch?v=O7ztVZDtDb0)
+## Free‑Space Features: Global Localization in 2D Laser SLAM Using Distance Function Maps
+{:style="margin-top:-10px"}
+Alexander Millane, Helen Oleynikova, Juan Nieto, Roland Siegwart, and César Cadena   
+**IEEE International Conference on Intelligent Robots and Systems (IROS), 2019** 
+
+{% endcapture %}
+
+<div class="notice--primary" style="float: left">
+  {{ freespace-features-text | markdownify }}
+</div>
+
+
 {% capture voxgraph-text %}
 <!-- [![Voxgraph](/images/voxgraph_fast.gif){:height="45%" width="45%" style="float: left; padding-right: 20px"}](https://www.youtube.com/watch?v=N9p1_Fkxxro) -->
 [![Voxgraph](/images/voxgraph_fast.gif){:height="45%" width="45%" style="float: left; padding-right: 20px"}](/resume)
 ## Voxgraph: Globally Consistent, Volumetric Mapping using Signed Distance Function Submaps
 {:style="margin-top:-10px"}
 
-Victor Reijgwart\*, Alexander Millane\*, Helen Oleynikova, Roland Siegwart, Cesar Cadena, Juan Nieto   
+Victor Reijgwart\*, Alexander Millane\*, Helen Oleynikova, Roland Siegwart, César Cadena, Juan Nieto   
 **IEEE Robotics and Automation Letters, 2019**
 
 \* contributed equally

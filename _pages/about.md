@@ -47,9 +47,11 @@ Alexander Millane, Helen Oleynikova, Juan Nieto, Roland Siegwart, and César Cad
 
 
 {% capture voxgraph-text %}
-[![Voxgraph](/images/voxgraph_fast.gif){:height="45%" width="45%" style="float: left; padding-right: 20px"}](https://www.youtube.com/watch?v=N9p1_Fkxxro)
-## Voxgraph: Globally Consistent, Volumetric Mapping using Signed Distance Function Submaps
-{:style="margin-top:-10px"}
+[![Voxgraph](/images/voxgraph_fast.gif){:height="45%" width="45%" style="float: left; padding-right: 20px"}](/voxgraph)
+<!-- ## Voxgraph: Globally Consistent, Volumetric Mapping using Signed Distance Function Submaps
+{:style="margin-top:-10px;"}-->
+<h2> <a style="text-decoration:none; color:#494e52;" href="/voxgraph" title="Voxgraph Project Page">Voxgraph: Globally Consistent, Volumetric Mapping using Signed Distance Function Submaps</a> </h2>
+{:style="margin-top:-10px;"}
 
 Victor Reijgwart\*, Alexander Millane\*, Helen Oleynikova, Roland Siegwart, César Cadena, Juan Nieto   
 **IEEE Robotics and Automation Letters, 2019**
@@ -63,7 +65,7 @@ Victor Reijgwart\*, Alexander Millane\*, Helen Oleynikova, Roland Siegwart, Cés
 </div>
 
 {% capture cblox-text %}
-[![Voxgraph](/images/machine_hall_rotate_combined.gif){:height="45%" width="45%" style="float: left; padding-right: 20px; padding-bottom: 40px"}](https://www.youtube.com/watch?v=N9p1_Fkxxro)
+[![cblox](/images/machine_hall_rotate_combined.gif){:height="45%" width="45%" style="float: left; padding-right: 20px; padding-bottom: 40px"}](https://www.youtube.com/watch?v=N9p1_Fkxxro)
 ## C-blox: A Scalable and Consistent TSDF-based Dense Mapping Approach
 {:style="margin-top:-10px"}
 Alexander Millane, Zachary Taylor, Helen Oleynikova, Juan Nieto, Roland Siegwart, César Cadena   

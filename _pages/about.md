@@ -20,10 +20,11 @@ A full list of publications may be found my [google scholar page](https://schola
 
 {% capture freetures-text %}
 [![Freetures](/images/freetures_fade.gif){:height="45%" width="45%" style="float: left; padding-right: 20px"}](https://www.youtube.com/watch?v=O7ztVZDtDb0)
-## Freetures: Localization in Signed Distance Function Maps
+<!-- ## Freetures: Localization in Signed Distance Function Maps -->
+<h2> <a style="text-decoration:none; color:#494e52;" href="/freetures" title="Freetures Project Page">Freetures: Localization in Signed Distance Function Maps</a> </h2>
 {:style="margin-top:-10px"}
 Alexander Millane, Helen Oleynikova, Christian Lanegger, Jeff Delmerico, Juan Nieto, Roland Siegwart, Marc Pollefeys, and César Cadena   
-**IEEE Robotics and Automation Letters, 2020, (submitted).** 
+**IEEE Robotics and Automation Letters, 2020.** 
 
 {% endcapture %}
 

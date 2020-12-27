@@ -19,11 +19,12 @@ I love doing things that lie in the intersection of mathematics, software, and p
 A full list of publications may be found my [google scholar page](https://scholar.google.ch/citations?hl=en&user=opWkjhsAAAAJ "Google Scholar").
 
 {% capture freetures-text %}
-[![Freetures](/images/freetures_fade.gif){:height="45%" width="45%" style="float: left; padding-right: 20px"}](https://www.youtube.com/watch?v=O7ztVZDtDb0)
-## Freetures: Localization in Signed Distance Function Maps
+[![Freetures](/images/freetures_fade.gif){:height="45%" width="45%" style="float: left; padding-right: 20px"}](/freetures)
+<!-- ## Freetures: Localization in Signed Distance Function Maps -->
+<h2> <a style="text-decoration:none; color:#494e52;" href="/freetures" title="Freetures Project Page">Freetures: Localization in Signed Distance Function Maps</a> </h2>
 {:style="margin-top:-10px"}
 Alexander Millane, Helen Oleynikova, Christian Lanegger, Jeff Delmerico, Juan Nieto, Roland Siegwart, Marc Pollefeys, and César Cadena   
-**IEEE Robotics and Automation Letters, 2020, (submitted).** 
+**IEEE Robotics and Automation Letters, 2020.** 
 
 {% endcapture %}
 
@@ -33,8 +34,10 @@ Alexander Millane, Helen Oleynikova, Christian Lanegger, Jeff Delmerico, Juan Ni
 
 
 {% capture freespace-features-text %}
-[![Freespace](/images/freespace_features_fade.gif){:height="45%" width="45%" style="float: left; padding-right: 20px"}](https://www.youtube.com/watch?v=O7ztVZDtDb0)
-## Free‑Space Features: Global Localization in 2D Laser SLAM Using Distance Function Maps
+[![Freespace](/images/freespace_features_fade.gif){:height="45%" width="45%" style="float: left; padding-right: 20px"}](/freespace)
+<!-- ## Free‑Space Features: Global Localization in 2D Laser SLAM Using Distance Function Maps
+{:style="margin-top:-10px"} -->
+<h2> <a style="text-decoration:none; color:#494e52;" href="/freespace" title="Free‑Space Features Project Page">Free‑Space Features: Global Localization in 2D Laser SLAM Using Distance Function Maps</a> </h2>
 {:style="margin-top:-10px"}
 Alexander Millane, Helen Oleynikova, Juan Nieto, Roland Siegwart, and César Cadena   
 **IEEE International Conference on Intelligent Robots and Systems (IROS), 2019** 
@@ -65,9 +68,11 @@ Victor Reijgwart\*, Alexander Millane\*, Helen Oleynikova, Roland Siegwart, Cés
 </div>
 
 {% capture cblox-text %}
-[![cblox](/images/machine_hall_rotate_combined.gif){:height="45%" width="45%" style="float: left; padding-right: 20px; padding-bottom: 40px"}](https://www.youtube.com/watch?v=N9p1_Fkxxro)
-## C-blox: A Scalable and Consistent TSDF-based Dense Mapping Approach
-{:style="margin-top:-10px"}
+[![cblox](/images/machine_hall_rotate_combined.gif){:height="45%" width="45%" style="float: left; padding-right: 20px; padding-bottom: 40px"}](/cblox)
+<!-- ## C-blox: A Scalable and Consistent TSDF-based Dense Mapping Approach
+{:style="margin-top:-10px"} -->
+<h2> <a style="text-decoration:none; color:#494e52;" href="/cblox" title="C-blox Project Page">C-blox: A Scalable and Consistent TSDF-based Dense Mapping Approach</a> </h2>
+{:style="margin-top:-10px;"}
 Alexander Millane, Zachary Taylor, Helen Oleynikova, Juan Nieto, Roland Siegwart, César Cadena   
 **IEEE International Conference on Intelligent Robots and Systems (IROS), 2018**
 

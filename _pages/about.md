@@ -9,11 +9,13 @@ redirect_from:
 ---
 
 
-Hey, I’m Alex. I’m a soon-to-graduate Ph.D. student in the [Autonomous Systems Lab](https://asl.ethz.ch/ "Autonomous Systems Lab") at [ETH Zürich](https://ethz.ch/en "ETH Zürich"), in Switzerland. My Ph.D. is focused on 3D map-building for rotary-wing UAVs, and more generally on map representations for mapping large-scale environments on computationally constrained platforms. I am currently spending the final part of my Ph.D. as a visiting scientist in the [Microsoft Mixed Reality & AI Zurich Lab](https://www.microsoft.com/en-us/research/lab/mixed-reality-ai-zurich/ "Microsoft Mixed Reality & AI Zurich Lab").
+Hey, I’m Alex. I work at [Nvidia](https://www.nvidia.com/en-us/ "NVIDIA") on 3D reconstruction for robotics using [embedded GPUs](https://www.nvidia.com/en-us/autonomous-machines/embedded-systems/jetson-agx-orin/ "Jetson Orin").
 
-Prior to starting my Ph.D., I wrote state estimation and machine learning algorithms for a [Formula-1 team](https://www.sauber-group.com/ "Formula-1 team"), and spent time prior to that, developing acoustic devices which I helped install in heavy machinery. I finished a Masters's in Robotics, Systems, and Control in 2015, also at [ETH](https://ethz.ch/en "ETH Zürich"), and I hold a Bachelor's degree from [Canterbury University](https://www.canterbury.ac.nz/ "Canterbury University"), located in New Zealand, where I grew up.
+I finished my Ph.D. at the [Autonomous Systems Lab](https://asl.ethz.ch/ "Autonomous Systems Lab") at [ETH Zürich](https://ethz.ch/en "ETH Zürich"), in Switzerland in 2021. My research focused on 3D map-building for rotary-wing UAVs, and more generally on mapping large-scale environments on computationally constrained platforms. I spent the final part of my Ph.D. as a visiting scientist in the [Microsoft Mixed Reality & AI Zurich Lab](https://www.microsoft.com/en-us/research/lab/mixed-reality-ai-zurich/ "Microsoft Mixed Reality & AI Zurich Lab").
 
-I love doing things that lie in the intersection of mathematics, software, and physical systems, and I’m looking for something challenging and awesome to do next. If you can help, let me know.
+Prior to my Ph.D., I wrote state estimation and machine learning algorithms for a [Formula-1 team](https://www.sauber-group.com/ "Formula-1 team"), and spent time prior to that, developing acoustic devices which I helped install in heavy machinery. I finished a Masters's in Robotics, Systems, and Control in 2015, also at [ETH](https://ethz.ch/en "ETH Zürich"), and I hold a Bachelor's degree from [Canterbury University](https://www.canterbury.ac.nz/ "Canterbury University"), located in Christchurch, New Zealand, where I grew up.
+
+I love doing things that lie in the intersection of mathematics, software, and physical systems.
 
 
 ## Selected Publications

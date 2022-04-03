@@ -9,13 +9,26 @@ redirect_from:
 ---
 
 
-Hey, I’m Alex. I work at [Nvidia](https://www.nvidia.com/en-us/ "NVIDIA") on 3D reconstruction for robotics using [embedded GPUs](https://www.nvidia.com/en-us/autonomous-machines/embedded-systems/jetson-agx-orin/ "Jetson Orin").
+Hey, I’m Alex. I work at [Nvidia](https://www.nvidia.com/en-us/ "NVIDIA") on 3D reconstruction for robotics using [embedded GPUs](https://youtu.be/afNVwoX_zd0 "nvblox").
 
 I finished my Ph.D. at the [Autonomous Systems Lab](https://asl.ethz.ch/ "Autonomous Systems Lab") at [ETH Zürich](https://ethz.ch/en "ETH Zürich"), in Switzerland in 2021. My research focused on 3D map-building for rotary-wing UAVs, and more generally on mapping large-scale environments on computationally constrained platforms. I spent the final part of my Ph.D. as a visiting scientist in the [Microsoft Mixed Reality & AI Zurich Lab](https://www.microsoft.com/en-us/research/lab/mixed-reality-ai-zurich/ "Microsoft Mixed Reality & AI Zurich Lab").
 
 Prior to my Ph.D., I wrote state estimation and machine learning algorithms for a [Formula-1 team](https://www.sauber-group.com/ "Formula-1 team"), and spent time prior to that, developing acoustic devices which I helped install in heavy machinery. I finished a Masters's in Robotics, Systems, and Control in 2015, also at [ETH](https://ethz.ch/en "ETH Zürich"), and I hold a Bachelor's degree from [Canterbury University](https://www.canterbury.ac.nz/ "Canterbury University"), located in Christchurch, New Zealand, where I grew up.
 
 I love doing things that lie in the intersection of mathematics, software, and physical systems.
+
+## Work at Nvidia
+
+{% capture nvblox-navigation-text %}
+[![Nvblox](/images/nvblox_navigation_trim.gif){:height="45%" width="45%" style="float: left; padding-right: 20px"}](https://youtu.be/afNVwoX_zd0)
+## nvblox: GPU accelerated real-time reconstruction for robotics
+{:style="margin-top:-10px"}
+We're working to bring real-time reconstruction and vision-based navigation to future robots by leveraging Nvidia Jetson devices. Our work is open-source ([nvblox](https://github.com/nvidia-isaac/nvblox "nvblox")), and ready for use with ROS2 ([nvblox_ros](https://github.com/NVIDIA-ISAAC-ROS/isaac_ros_nvblox "nvblox_ros")). This work was featured in a [video](https://www.youtube.com/watch?v=afNVwoX_zd0&t=74s "nvblox at GTC 2022") at GTC 2022.
+{% endcapture %}
+
+<div class="notice--primary" style="float: left">
+  {{ nvblox-navigation-text | markdownify }}
+</div>
 
 
 ## Selected Publications

@@ -8,46 +8,108 @@ redirect_from:
   - /about.html
 ---
 
+Hi, I’m Alex. I work on computer vision and robot learning at NVIDIA.
 
-Hey, I’m Alex. I work at [Nvidia](https://www.nvidia.com/en-us/ "NVIDIA") on real‑time 3D reconstruction for robotics using [embedded GPUs](https://youtu.be/afNVwoX_zd0 "nvblox").
+Recently, my work at NVIDIA has focused on Vision-Language-Action models and Imitation Learning for humanoid robots.
+Previously, I worked on high-performance real-time 3D reconstruction.
+I have a PhD in computer vision and robotics from ETH Zurich.
+I spent the final part of my Ph.D. as a visiting scientist in the [Microsoft Mixed Reality & AI Zurich Lab](https://www.microsoft.com/en-us/research/lab/mixed-reality-ai-zurich/ "Microsoft Mixed Reality & AI Zurich Lab").
 
-I finished my Ph.D. at the [Autonomous Systems Lab](https://asl.ethz.ch/ "Autonomous Systems Lab") at [ETH Zürich](https://ethz.ch/en "ETH Zürich"), in Switzerland in 2021. My research focused on 3D map-building for rotary-wing UAVs, and more generally on mapping large-scale environments on computationally constrained platforms. I spent the final part of my Ph.D. as a visiting scientist in the [Microsoft Mixed Reality & AI Zurich Lab](https://www.microsoft.com/en-us/research/lab/mixed-reality-ai-zurich/ "Microsoft Mixed Reality & AI Zurich Lab").
+I love working with passionate small teams on hard problems that lie at the intersection of mathematics, software, and physical systems.
 
-Prior to my Ph.D., I wrote state estimation and machine learning algorithms for a [Formula-1 team](https://www.sauber-group.com/ "Formula-1 team"), and spent time prior to that, developing acoustic devices which I helped install in heavy machinery. I finished a Masters's in Robotics, Systems, and Control in 2015, also at [ETH](https://ethz.ch/en "ETH Zürich"), and I hold a Bachelor's degree from [Canterbury University](https://www.canterbury.ac.nz/ "Canterbury University"), located in Christchurch, New Zealand, where I grew up.
-
-I love working with passionate people on hard problems that lie in the intersection of mathematics, software, and physical systems
 
 ## Work at Nvidia
-Things I've worked on at NVIDIA.
+Open-source things that I've worked on at NVIDIA.
 
-{% capture nvblox-humans-text %}
-[![Nvblox](/images/realsense_nvblox_humans.gif){:height="45%" width="45%" style="float: left; padding-right: 20px"}](https://github.com/NVIDIA-ISAAC-ROS/isaac_ros_nvblox)
-## GPU accelerated Reconstruction with Humans
-{:style="margin-top:-10px"}
-We utilized nvblox's flexibility to combine deep-learned human segmentation and 3D reconstruction. This allows separation of static and dynamic elements of the scene into separate voxel layers, each generating separate cost-maps for navigation. We used NVIDIA toolkits TAO and TensorRT to deploy the network and reconstruction system to the NVIDIA Jetson Orin. Try it out for yourself live with ([nvblox_ros](https://github.com/NVIDIA-ISAAC-ROS/isaac_ros_nvblox "nvblox_ros")).
-
+{% capture mindmap-text-2 %}
+<div style="display: flex; align-items: flex-start;">
+  <div style="flex: 0 0 auto; margin-right: 20px;">
+    <p>
+      <img src="/images/mindmap_robot.png" alt="humanoid robot in IsaacLab" width="300" style="display: block; margin-bottom: 10px;"/>
+      <img src="/images/mindmap_architecture_thin.png" alt="MINDMAP architecture" width="300" style="display: block;"/>
+    </p>
+  </div>
+  <div style="flex: 1;">
+    <h2 style="margin-top: 0;">Spatial Memory in Humanoid Manipulation</h2>
+    <p>
+    End-to-end learning has emerged as a promising approach towards intelligent robotic manipulators.
+    Current approaches, however, lack spatial memory, which leads to surprising limitations in their capabilities.
+    In this work we show how by providing a metric-semantic reconstruction to a denoising transformer based manipulation model,
+    new capabilities for learning-based manipulation models are unlocked.
+    </p>
+    <p>
+    <em>Paper and code coming soon.</em>
+    </p>
+  </div>
+</div>
 {% endcapture %}
 
 <div class="notice--primary" style="float: left">
-  {{ nvblox-humans-text | markdownify }}
+  {{ mindmap-text-2 | markdownify }}
 </div>
 
-{% capture nvblox-navigation-text %}
-[![Nvblox](/images/nvblox_navigation_trim.gif){:height="45%" width="45%" style="float: left; padding-right: 20px"}](https://youtu.be/afNVwoX_zd0)
-## nvblox: GPU-Accelerated Real-time Reconstruction for Robotics
-{:style="margin-top:-10px"}
-We're working to bring real-time reconstruction and vision-based navigation to future robots by leveraging Nvidia Jetson devices. Our work is open-source ([nvblox](https://github.com/nvidia-isaac/nvblox "nvblox")), and ready for use with ROS2 ([nvblox_ros](https://github.com/NVIDIA-ISAAC-ROS/isaac_ros_nvblox "nvblox_ros")). This work was featured in a [video](https://www.youtube.com/watch?v=afNVwoX_zd0&t=74s "nvblox at GTC 2022") at GTC 2022.
 
+{% capture perceptor-text %}
+<div style="display: flex; align-items: flex-start;">
+  <div style="flex: 0 0 auto; margin-right: 20px;">
+    <p>
+      <img src="/images/realsense_nvblox_humans.gif" alt="dynamic reconstruction" width="300" style="display: block; margin-bottom: 10px;"/>
+      <img src="/images/warehouse_multicam_navigation.gif" alt="Multi-cam navigation" width="300" style="display: block;"/>
+    </p>
+  </div>
+  <div style="flex: 1;">
+    <h2 style="margin-top: 0;">NVIDIA Perceptor</h2>
+    <p>
+    We integrated <code>nvblox</code> into a system for Autonomous Mobile Robot (AMR) navigation.
+    The system combines multi-cam real-time reconstruction with deep-learned stereo and visual motion tracking
+    from a set of cameras that surround the robot.
+    <code>nvblox</code> was upgraded with features for motion segmentation to support navigation in environments with moving elements in the scene.
+    Check out the <a href="https://www.youtube.com/watch?v=w1EU3JT32Do" title="perceptor video">video</a> and 
+    <a href="https://nvidia-isaac-ros.github.io/reference_workflows/isaac_perceptor/index.html" title="perceptor code">code</a>.
+    </p>
+  </div>
+</div>
 {% endcapture %}
 
 <div class="notice--primary" style="float: left">
-  {{ nvblox-navigation-text | markdownify }}
+  {{ perceptor-text | markdownify }}
+</div>
+
+{% capture nvblox-text %}
+[![Nvblox](/images/desk_radio_x2_600px.gif){:height="45%" width="45%" style="float: left; padding-right: 20px"}](https://youtu.be/afNVwoX_zd0)
+## nvblox: GPU-Accelerated Real-time Reconstruction for Robotics
+{:style="margin-top:-10px"}
+`nvblox` is a real-time reconstruction library for NVIDIA GPUs, including embedded devices. 
+The library has been used in robot navigation, robotic manipulator control, mapping and robot learing research.
+The library is open-source. [Try it out!](https://nvidia-isaac.github.io/nvblox)
+{% endcapture %}
+
+<div class="notice--primary" style="float: left">
+  {{ nvblox-text | markdownify }}
 </div>
 
 
 ## Selected Publications
 
 A full list of publications may be found my [google scholar page](https://scholar.google.ch/citations?hl=en&user=opWkjhsAAAAJ "Google Scholar").
+
+
+{% capture freetures-text %}
+[![nvblox](/images/3dmatch.gif){:height="45%" width="45%" style="float: left; padding-right: 20px"}](/nvblox)
+<!-- ## Freetures: Localization in Signed Distance Function Maps -->
+<h2> <a style="text-decoration:none; color:#494e52;" href="/nvblox" title="nvblox Project Page">nvblox: GPU-Accelerated Incremental Signed Distance Field Mapping</a> </h2>
+{:style="margin-top:-10px"}
+Alexander Millane\*, Helen Oleynikova\*, Emilie Wirbel, Remo Steiner, Vikram Ramasamy, David Tingdahl, Roland Siegwart  
+**International Conference on Robotics and Automation (ICRA), 2024.** 
+
+\* contributed equally
+
+{% endcapture %}
+
+<div class="notice--primary" style="float: left">
+  {{ freetures-text | markdownify }}
+</div>
+
 
 {% capture freetures-text %}
 [![Freetures](/images/freetures_fade.gif){:height="45%" width="45%" style="float: left; padding-right: 20px"}](/freetures)

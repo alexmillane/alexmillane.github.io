@@ -31,11 +31,12 @@ Open-source things that I've worked on at NVIDIA.
   <div style="flex: 1;">
     <h2 style="margin-top: 0;">Isaac Lab Arena</h2>
     <p>
-    Isaac Lab Arena extends Isaac Lab to simplify building simulation environments and to run them fast.
-    Environments are composed from reusable, swappable parts, with objects placed automatically at run-time
-    from semantic spatial relationships.
-    The framework targets large-scale robot policy evaluation, supporting parallel and multi-node evaluation
-    alongside controlled environmental variations.
+    Parallel simulation for robot policy evaluation, at scale.
+    </p>
+    <p>
+    Arena provides tools for scalable environment generation, placing objects automatically from semantic
+    spatial relationships, and constructing simulation environments agentically.
+    Evaluation runs across multiple nodes for fast execution on GPU compute clusters.
     </p>
     <p>
     Check out the <a href="https://isaac-sim.github.io/IsaacLab-Arena/main/index.html" title="Isaac Lab Arena documentation">documentation</a> and

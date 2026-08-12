@@ -8,12 +8,10 @@ redirect_from:
   - /about.html
 ---
 
-Hi, I’m Alex. I work on computer vision and robot learning at NVIDIA.
+Hi, I’m Alex. I’m a tech-lead working on robotics at NVIDIA.
 
-Recently, my work at NVIDIA has focused on Vision-Language-Action models and Imitation Learning for humanoid robots.
-Previously, I worked on high-performance real-time 3D reconstruction.
-I have a PhD in computer vision and robotics from ETH Zurich.
-I spent the final part of my Ph.D. as a visiting scientist in the [Microsoft Mixed Reality & AI Zurich Lab](https://www.microsoft.com/en-us/research/lab/mixed-reality-ai-zurich/ "Microsoft Mixed Reality & AI Zurich Lab").
+My work at NVIDIA has been at the intersection of real-time perception, robot learning, and simulation.
+I have a PhD in computer vision and robotics from ETH Zurich where I studied in the Autonomous Systems Lab (ASL) under Roland Siegwart.
 
 I love working with passionate small teams on hard problems that lie at the intersection of mathematics, software, and physical systems.
 

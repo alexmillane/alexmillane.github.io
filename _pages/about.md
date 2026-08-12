@@ -38,7 +38,8 @@ Open-source things that I've worked on at NVIDIA.
     new capabilities for learning-based manipulation models are unlocked.
     </p>
     <p>
-    <em>Paper and code coming soon.</em>
+    Check out the <a href="https://arxiv.org/abs/2509.20297" title="MINDMAP paper">paper</a> and
+    <a href="https://github.com/nvidia-isaac/nvblox_mindmap/" title="MINDMAP code">code</a>.
     </p>
   </div>
 </div>

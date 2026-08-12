@@ -19,6 +19,37 @@ I love working with passionate small teams on hard problems that lie at the inte
 ## Work at Nvidia
 Open-source things that I've worked on at NVIDIA.
 
+{% capture arena-text %}
+<div style="display: flex; align-items: flex-start;">
+  <div style="flex: 0 0 auto; margin-right: 20px;">
+    <p>
+      <video width="300" autoplay loop muted playsinline style="display: block;">
+        <source src="/images/arena_parallel_evaluation.mp4" type="video/mp4">
+      </video>
+    </p>
+  </div>
+  <div style="flex: 1;">
+    <h2 style="margin-top: 0;">Isaac Lab Arena</h2>
+    <p>
+    Isaac Lab Arena extends Isaac Lab to simplify building simulation environments and to run them fast.
+    Environments are composed from reusable, swappable parts, with objects placed automatically at run-time
+    from semantic spatial relationships.
+    The framework targets large-scale robot policy evaluation, supporting parallel and multi-node evaluation
+    alongside controlled environmental variations.
+    </p>
+    <p>
+    Check out the <a href="https://isaac-sim.github.io/IsaacLab-Arena/main/index.html" title="Isaac Lab Arena documentation">documentation</a> and
+    <a href="https://github.com/isaac-sim/IsaacLab-Arena/" title="Isaac Lab Arena code">code</a>.
+    </p>
+  </div>
+</div>
+{% endcapture %}
+
+<div class="notice--primary" style="float: left">
+  {{ arena-text | markdownify }}
+</div>
+
+
 {% capture mindmap-text-2 %}
 <div style="display: flex; align-items: flex-start;">
   <div style="flex: 0 0 auto; margin-right: 20px;">

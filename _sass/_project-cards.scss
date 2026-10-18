@@ -1,0 +1,38 @@
+/* Keep the desktop columns, but let mobile text wrap beneath the media. */
+.project-card {
+  display: flex;
+  align-items: flex-start;
+
+  &__media {
+    flex: 0 0 auto;
+    margin-right: 20px;
+
+    img,
+    video {
+      max-width: 100%;
+      height: auto;
+    }
+  }
+
+  &__text {
+    flex: 1;
+    min-width: 0;
+  }
+
+  @media (max-width: 767px) {
+    display: flow-root;
+
+    &__media {
+      float: left;
+      width: 45%;
+      margin-right: 0;
+      padding-right: 20px;
+      padding-bottom: 10px;
+
+      img,
+      video {
+        width: 100%;
+      }
+    }
+  }
+}

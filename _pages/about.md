@@ -20,15 +20,15 @@ I love working with passionate small teams on hard problems that lie at the inte
 Open-source things that I've worked on at NVIDIA.
 
 {% capture arena-text %}
-<div style="display: flex; align-items: flex-start;">
-  <div style="flex: 0 0 auto; margin-right: 20px;">
+<div class="project-card">
+  <div class="project-card__media">
     <p>
       <video width="300" autoplay loop muted playsinline style="display: block;">
         <source src="/images/arena_parallel_evaluation.mp4" type="video/mp4">
       </video>
     </p>
   </div>
-  <div style="flex: 1;">
+  <div class="project-card__text">
     <h2 style="margin-top: 0;">Isaac Lab Arena</h2>
     <p>
     Parallel simulation for robot policy evaluation at scale.
@@ -52,14 +52,14 @@ Open-source things that I've worked on at NVIDIA.
 
 
 {% capture mindmap-text-2 %}
-<div style="display: flex; align-items: flex-start;">
-  <div style="flex: 0 0 auto; margin-right: 20px;">
+<div class="project-card">
+  <div class="project-card__media">
     <p>
       <img src="/images/mindmap_robot.png" alt="humanoid robot in IsaacLab" width="300" style="display: block; margin-bottom: 10px;"/>
       <img src="/images/mindmap_architecture_thin.png" alt="MINDMAP architecture" width="300" style="display: block;"/>
     </p>
   </div>
-  <div style="flex: 1;">
+  <div class="project-card__text">
     <h2 style="margin-top: 0;">Spatial Memory in Humanoid Manipulation</h2>
     <p>
     End-to-end learning has emerged as a promising approach towards intelligent robotic manipulators.
@@ -81,8 +81,8 @@ Open-source things that I've worked on at NVIDIA.
 
 
 {% capture perceptor-text %}
-<div style="display: flex; align-items: flex-start;">
-  <div style="flex: 0 0 auto; margin-right: 20px;">
+<div class="project-card">
+  <div class="project-card__media">
     <p>
       <video width="300" autoplay loop muted playsinline style="display: block; margin-bottom: 10px;">
         <source src="/images/realsense_nvblox_humans.mp4" type="video/mp4">
@@ -92,7 +92,7 @@ Open-source things that I've worked on at NVIDIA.
       </video>
     </p>
   </div>
-  <div style="flex: 1;">
+  <div class="project-card__text">
     <h2 style="margin-top: 0;">NVIDIA Perceptor</h2>
     <p>
     We integrated <code>nvblox</code> into a system for Autonomous Mobile Robot (AMR) navigation.

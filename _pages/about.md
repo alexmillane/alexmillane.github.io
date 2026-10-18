@@ -84,8 +84,12 @@ Open-source things that I've worked on at NVIDIA.
 <div style="display: flex; align-items: flex-start;">
   <div style="flex: 0 0 auto; margin-right: 20px;">
     <p>
-      <img src="/images/realsense_nvblox_humans.gif" alt="dynamic reconstruction" width="300" style="display: block; margin-bottom: 10px;"/>
-      <img src="/images/warehouse_multicam_navigation.gif" alt="Multi-cam navigation" width="300" style="display: block;"/>
+      <video width="300" autoplay loop muted playsinline style="display: block; margin-bottom: 10px;">
+        <source src="/images/realsense_nvblox_humans.mp4" type="video/mp4">
+      </video>
+      <video width="300" autoplay loop muted playsinline style="display: block;">
+        <source src="/images/warehouse_multicam_navigation.mp4" type="video/mp4">
+      </video>
     </p>
   </div>
   <div style="flex: 1;">
@@ -107,7 +111,7 @@ Open-source things that I've worked on at NVIDIA.
 </div>
 
 {% capture nvblox-text %}
-[![Nvblox](/images/desk_radio_x2_600px.gif){:height="45%" width="45%" style="float: left; padding-right: 20px"}](https://youtu.be/afNVwoX_zd0)
+<a href="https://youtu.be/afNVwoX_zd0"><video autoplay loop muted playsinline aria-label="Nvblox" style="float: left; padding-right: 20px; width: 45%"><source src="/images/desk_radio_x2_600px.mp4" type="video/mp4"></video></a>
 ## nvblox: GPU-Accelerated Real-time Reconstruction for Robotics
 {:style="margin-top:-10px"}
 `nvblox` is a real-time reconstruction library for NVIDIA GPUs, including embedded devices. 
@@ -126,7 +130,7 @@ A full list of publications may be found my [google scholar page](https://schola
 
 
 {% capture freetures-text %}
-[![nvblox](/images/3dmatch.gif){:height="45%" width="45%" style="float: left; padding-right: 20px"}](/nvblox)
+<a href="/nvblox"><video autoplay loop muted playsinline aria-label="nvblox" style="float: left; padding-right: 20px; width: 45%"><source src="/images/3dmatch.mp4" type="video/mp4"></video></a>
 <!-- ## Freetures: Localization in Signed Distance Function Maps -->
 <h2> <a style="text-decoration:none; color:#494e52;" href="/nvblox" title="nvblox Project Page">nvblox: GPU-Accelerated Incremental Signed Distance Field Mapping</a> </h2>
 {:style="margin-top:-10px"}
@@ -143,7 +147,7 @@ Alexander Millane\*, Helen Oleynikova\*, Emilie Wirbel, Remo Steiner, Vikram Ram
 
 
 {% capture freetures-text %}
-[![Freetures](/images/freetures_fade.gif){:height="45%" width="45%" style="float: left; padding-right: 20px"}](/freetures)
+<a href="/freetures"><video autoplay loop muted playsinline aria-label="Freetures" style="float: left; padding-right: 20px; width: 45%"><source src="/images/freetures_fade.mp4" type="video/mp4"></video></a>
 <!-- ## Freetures: Localization in Signed Distance Function Maps -->
 <h2> <a style="text-decoration:none; color:#494e52;" href="/freetures" title="Freetures Project Page">Freetures: Localization in Signed Distance Function Maps</a> </h2>
 {:style="margin-top:-10px"}
@@ -158,7 +162,7 @@ Alexander Millane, Helen Oleynikova, Christian Lanegger, Jeff Delmerico, Juan Ni
 
 
 {% capture freespace-features-text %}
-[![Freespace](/images/freespace_features_fade.gif){:height="45%" width="45%" style="float: left; padding-right: 20px"}](/freespace)
+<a href="/freespace"><video autoplay loop muted playsinline aria-label="Freespace" style="float: left; padding-right: 20px; width: 45%"><source src="/images/freespace_features_fade.mp4" type="video/mp4"></video></a>
 <!-- ## Free‑Space Features: Global Localization in 2D Laser SLAM Using Distance Function Maps
 {:style="margin-top:-10px"} -->
 <h2> <a style="text-decoration:none; color:#494e52;" href="/freespace" title="Free‑Space Features Project Page">Free‑Space Features: Global Localization in 2D Laser SLAM Using Distance Function Maps</a> </h2>
@@ -174,7 +178,7 @@ Alexander Millane, Helen Oleynikova, Juan Nieto, Roland Siegwart, and César Cad
 
 
 {% capture voxgraph-text %}
-[![Voxgraph](/images/voxgraph_fast.gif){:height="45%" width="45%" style="float: left; padding-right: 20px"}](/voxgraph)
+<a href="/voxgraph"><video autoplay loop muted playsinline aria-label="Voxgraph" style="float: left; padding-right: 20px; width: 45%"><source src="/images/voxgraph_fast.mp4" type="video/mp4"></video></a>
 <!-- ## Voxgraph: Globally Consistent, Volumetric Mapping using Signed Distance Function Submaps
 {:style="margin-top:-10px;"}-->
 <h2> <a style="text-decoration:none; color:#494e52;" href="/voxgraph" title="Voxgraph Project Page">Voxgraph: Globally Consistent, Volumetric Mapping using Signed Distance Function Submaps</a> </h2>
@@ -192,7 +196,7 @@ Victor Reijgwart\*, Alexander Millane\*, Helen Oleynikova, Roland Siegwart, Cés
 </div>
 
 {% capture cblox-text %}
-[![cblox](/images/machine_hall_rotate_combined.gif){:height="45%" width="45%" style="float: left; padding-right: 20px; padding-bottom: 40px"}](/cblox)
+<a href="/cblox"><video autoplay loop muted playsinline aria-label="cblox" style="float: left; padding-right: 20px; padding-bottom: 40px; width: 45%"><source src="/images/machine_hall_rotate_combined.mp4" type="video/mp4"></video></a>
 <!-- ## C-blox: A Scalable and Consistent TSDF-based Dense Mapping Approach
 {:style="margin-top:-10px"} -->
 <h2> <a style="text-decoration:none; color:#494e52;" href="/cblox" title="C-blox Project Page">C-blox: A Scalable and Consistent TSDF-based Dense Mapping Approach</a> </h2>
@@ -210,7 +214,7 @@ Alexander Millane, Zachary Taylor, Helen Oleynikova, Juan Nieto, Roland Siegwart
 ## Projects
 
 {% capture mbzirc-text %}
-[![Tricopter](/images/mbzirc_2020_voliro_t_crop.gif){:height="45%" width="45%" style="float: left; padding-right: 20px"}](https://www.youtube.com/watch?v=QB1Cw2m6Yh8)
+<a href="https://www.youtube.com/watch?v=QB1Cw2m6Yh8"><video autoplay loop muted playsinline aria-label="Tricopter" style="float: left; padding-right: 20px; width: 45%"><source src="/images/mbzirc_2020_voliro_t_crop.mp4" type="video/mp4"></video></a>
 ## Autonomous Fire-Fighting
 {:style="margin-top:-10px"}
 In this project we built a system for autonomously finding fires in multi-story buildings as part of our entry to the [MBZIRC 2020 international robotics competition](https://www.mbzirc.com/ "MBZIRC"). The mission is completed by a collaborating robotic team, consisting of a hexacopter and a tricopter. The approach exploits the mapping and precise control capabilities of each of the vehicles respectively. If you're interested, check out our [video](https://www.youtube.com/watch?v=QB1Cw2m6Yh8 "Autonomous Firefighting").
@@ -221,7 +225,7 @@ In this project we built a system for autonomously finding fires in multi-story 
 </div>
 
 {% capture thermal-mapping-text %}
-[![Thermal Mapping](/images/thermal_mapping.gif){:height="45%" width="45%" style="float: left; padding-right: 20px"}](https://www.youtube.com/watch?v=49WiPHkkhBw)
+<a href="https://www.youtube.com/watch?v=49WiPHkkhBw"><video autoplay loop muted playsinline aria-label="Thermal Mapping" style="float: left; padding-right: 20px; width: 45%"><source src="/images/thermal_mapping.mp4" type="video/mp4"></video></a>
 ## Thermal Mapping
 {:style="margin-top:-10px"}
 In this work we showed a UAV building dense 3D maps, localizing within these maps, and autonomously navigating through narrow spaces to find potential injured people using a thermal camera. We demonstrated this at a search and rescue training site in Switzerland. If you're interested, check out our [video](https://www.youtube.com/watch?v=49WiPHkkhBw "Thermal Mapping").

@@ -19,6 +19,39 @@ I love working with passionate small teams on hard problems that lie at the inte
 ## Work at Nvidia
 Open-source things that I've worked on at NVIDIA.
 
+{% capture weaverl-text %}
+<div class="project-card">
+  <div class="project-card__media">
+    <p>
+      <a href="https://weave-rl.github.io/" title="WeaveRL project page">
+        <video width="300" autoplay loop muted playsinline preload="metadata" poster="/images/weaverl_composite.jpg" aria-label="WeaveRL: real-robot shelf placement on the left, parallel simulated environments and their 3D reconstructions on the right" style="display: block;">
+          <source src="/images/weaverl_composite.mp4" type="video/mp4">
+        </video>
+      </a>
+    </p>
+  </div>
+  <div class="project-card__text">
+    <h2 style="margin-top: 0;">3D Reconstruction for Reinforcement Learning</h2>
+    <p>
+    We bring online 3D reconstruction into massively parallel reinforcement learning, allowing robots to learn manipulation skills in geometrically complex scenes.
+    Our GPU-accelerated system reconstructs thousands of simulated environments in parallel and uses that geometry to guide collision avoidance.
+    </p>
+    <p>
+    Our approach allows completion of collision-dense tasks that map-free approaches fail at.
+    Furthermore, these policies transfer sim to real zero shot, and show increased robustness to unseen obstacles.
+    </p>
+    <p>
+    Check out the <a href="https://weave-rl.github.io/" title="WeaveRL project page">project page</a> and
+    <a href="https://arxiv.org/abs/2609.18685" title="WeaveRL paper">paper</a>.
+    </p>
+  </div>
+</div>
+{% endcapture %}
+
+<div class="notice--primary" style="float: left">
+  {{ weaverl-text | markdownify }}
+</div>
+
 {% capture arena-text %}
 <div class="project-card">
   <div class="project-card__media">
